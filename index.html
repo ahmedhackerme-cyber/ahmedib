@@ -3,19 +3,67 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>موقع احمد حساني</title>
+        <title>My Website</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            body {
+                background: #0f172a;
+                color: white;
+            }
+
+            header {
+                background: #111827;
+                padding: 28px 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: sticky;
+                top: 0;
+            }
+
+            .logo {
+                font-size: 26px;
+                font-weight: bold;
+                color: #38bdf8;
+            }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin-left: 60px;
+                transition: .3s;
+                font-size: 17px;
+            }
+
+            nav a:hover {
+                color: #38bdf8;
+            }
+
+        </style>
+
     </head>
 
     <body>
-        <center>
-            <h2 style="background-color: rgb(206, 206, 206); color: rgb(75, 0, 0)">لا تدخل للرابط هذا من ممكن ان يخترق
-                جهازك
-                او
-                يسرق بياناتك</h2>
-        </center>
-        <a href="downloads/">downloads</a>
+
+        <header>
+            <div class="logo">موقع احمد</div>
+
+            <nav>
+                <a href="downloads/">تحميل</a>
+                <a href="#">تعلم</a>
+                <!--<a href="#">عني</a>
+                <a href="#">Messages</a>-->
+            </nav>
+        </header>
+
     </body>
 
 </html>
